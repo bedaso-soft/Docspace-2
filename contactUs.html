@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | DocSpace</title>
+    <link rel="stylesheet" href="../asset/style.css">
+    <style>
+    .main-section {
+    flex: 1;
+    padding: 100px 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    
+    .content-box {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    
+    .content-box h2 {
+    margin-bottom: 15px;
+    }
+    
+    .content-box h3 {
+    margin-top: 25px;
+    }
+    
+    .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    }
+    
+    .contact-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border: none;
+    background: #2563eb;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+    background: #1e40af;
+    }
+    
+    footer {
+    text-align: center;
+    padding: 15px;
+    background: #111827;
+    color: #e5e7eb;
+    }
+</style>
+</head>
+
+<body>
+
+    <header class="appbar">
+        <h1>DocSpace</h1>
+    </header>
+
+    <section class="main-section contact-page">
+        <div class="content-box">
+            <h2>Contact Us</h2>
+
+            <p>
+                We’d love to hear from you. Whether it’s feedback, a bug report,
+                or a general question, feel free to reach out.
+            </p>
+
+            <form class="contact-form">
+                <label>
+                    Name
+                    <input type="text" placeholder="Your name" required>
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" placeholder="Your email" required>
+                </label>
+
+                <label>
+                    Message
+                    <textarea rows="5" placeholder="Your message" required></textarea>
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p class="contact-note">
+                We usually respond within 24–48 hours.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 DocSpace. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
